@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, #fffaf0, #ffffff);
+  font-family: serif;
+  color: #444;
+  text-align: center;
+}
+
+.hero {
+  padding: 60px 20px;
+}
+
+.header-img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.4);
+}
+
+.name {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.5em;
+  color: #d4af37;
+  margin: 20px 0;
+}
+
+.resume-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  background: #d4af37;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.resume-button:hover {
+  background: #bfa12f;
+}
