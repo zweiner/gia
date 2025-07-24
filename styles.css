@@ -1,40 +1,71 @@
+/* General page styles */
 body {
   margin: 0;
   background: linear-gradient(to bottom, #fffaf0, #ffffff);
-  font-family: serif;
-  color: #444;
+  font-family: 'Georgia', serif;
+  color: #333;
   text-align: center;
 }
 
+/* Hero section */
 .hero {
-  padding: 60px 20px;
+  padding: 60px 20px 40px 20px;
 }
 
 .header-img {
   width: 80%;
   max-width: 600px;
   border-radius: 20px;
-  box-shadow: 0 0 30px rgba(212, 175, 55, 0.4);
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
 }
 
 .name {
   font-family: 'Great Vibes', cursive;
   font-size: 3.5em;
   color: #d4af37;
-  margin: 20px 0;
+  margin-top: 20px;
 }
 
-.resume-button {
-  display: inline-block;
-  margin-top: 30px;
-  padding: 12px 24px;
-  background: #d4af37;
-  color: white;
-  font-size: 1.2em;
-  border-radius: 10px;
-  text-decoration: none;
-  transition: background 0.3s;
+/* Resume section */
+.resume {
+  background-color: #fffdf5;
+  margin: 40px auto;
+  padding: 40px;
+  max-width: 800px;
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.1);
 }
-.resume-button:hover {
-  background: #bfa12f;
+
+.resume h2 {
+  font-family: 'Georgia', serif;
+  font-size: 2em;
+  color: #d4af37;
+  text-align: center;
+  margin-bottom: 30px;
 }
+
+.resume h3 {
+  color: #d4af37;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+
+.resume ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.resume li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.resume p {
+  font-size: 1.05em;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
